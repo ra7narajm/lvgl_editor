@@ -38,18 +38,17 @@ This video provides a step-by-step guide to all supported features. A new video 
    - Mac: Install Podman (`brew install podman`)  
 
 2. **Download and install the Editor**: Get the installers [here](https://github.com/lvgl/lvgl_editor/releases).  
-3. **Fork and clone this repository** to try the CI actions and online preview. Set `Pages` source to `GitHub Action` and enable Actions in repository settings.  
+3. **Fork and clone this repository** to try the CI actions and online preview. In the GitHub settings of the forked repository set `Pages` source to `GitHub Action` and enable Actions as well.  
 4. **Open the editor** and load the example folder.  
 5. **Prepare the project**:  
    - Click `Generate Code`  
    - Click `Compile Project` to rebuild the preview with new C code.  
-6. **Edit components**: Modify `button_default.xml` and save (Ctrl+S) to update the preview. Learn XML [here](https://docs.lvgl.io/master/details/xml/index.html).  
-7. **Edit a widget**: Open `slider_box.xml`, edit XML and/or C code, then click `Compile Code`.  
-8. **Fonts and images**: Check `globals.xml` for how these are handled.  
-9. **Figma**: Open the [Figma project](https://www.figma.com/design/itmQpC9m5HessaOZFbYTwK/Example?node-id=0-1&t=oWqPUdcRyVYtRgAY-0) and duplicate it.  
-10. **Use the Figma plugin**: Modify the design and update XMLs with new styles.  
-11. **Try the online preview**: Push your changes, wait for CI to run, then check the preview.  
-12. **Need help?** Open an issue anytime. 😊  
+6. **Edit components**: Modify `screens/settings/settings.xml` to see the preiview is updated. Learn more about XML [here](https://docs.lvgl.io/master/details/xml/index.html).  
+7. **Fonts and images**: Check `globals.xml` for how these are handled.  
+8. **Figma**: Open the [Figma project](https://www.figma.com/design/itmQpC9m5HessaOZFbYTwK/Example?node-id=0-1&t=oWqPUdcRyVYtRgAY-0) and duplicate it.  
+9. **Use the Figma plugin**: Modify the design and update XMLs with new styles.  
+10. **Try the online preview**: Push your changes, wait for CI to run, then check the preview.  
+11. **Need help?** Open an issue anytime. 😊  
 
 ## Current Status and Future Plans
 
